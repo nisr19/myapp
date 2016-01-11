@@ -1,0 +1,46 @@
+body {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+h1, p {
+  color: #333;
+}
+
+#container_id {
+  height: 400px;
+  width: 500px;
+  position: relative;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+#text_id {
+  font-size: 24pt;
+  text-align: center;
+  margin-top: 140px;
+}
+
+#container_head{
+  height:10%;
+  line-height:10%;
+  width:100%;
+  border: 1px solid #ccc;
+  vetical-align:center;
+ 
+}
+
+#query{
+  margin-top: 10px;
+  margin-left: 10px;
+  width:250px;
+}
+#button{
+   margin-top: 10px;
+   margin-left: 10px;
+}
+

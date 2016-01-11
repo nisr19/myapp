@@ -1,0 +1,14 @@
+name: Dbconnection
+author: AIE team
+description: A sample Chrome packaged application
+homepage: dbconnection.html
+dev_dependencies:
+  chrome: any
+  http: any
+  mongo_dart: any
+  postgresql: 0.3.2
+  utf: any
+transformers:
+- chrome
+- $dart2js:
+    csp: true

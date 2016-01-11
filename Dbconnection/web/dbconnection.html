@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dbconnection</title>
+    <link rel="stylesheet" href="dbconnection.css">
+  </head>
+  <body>
+    <h1>Dbconnection</h1>
+
+    <p>Hello world from Dart!</p>
+
+    <div id='container_id'>
+      <div id='container_head'>
+      <input type='text' id='query' name="query" value='select * from test;'></input>
+       <input type='submit' id='button'></input>
+      </div>
+      <div id='container_result'>
+      <p>Result:</p>
+      <p id='result'></p>
+      </div>   
+    </div>
+    <!-- Support for non-Dart browsers.
+    <script src="packages/browser/dart.js"></script>  -->  
+    <script src="packages/chrome/bootstrap.js" defer></script>
+    <script src="dbconnection.dart" type="application/dart"></script> 
+    
+  </body>
+</html>
